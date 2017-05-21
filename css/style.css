@@ -1,0 +1,84 @@
+/* 
+
+Style Hints: 
+
+Body Font Size = 14px
+	 Font Family = "Times New Roman", serif
+	 Font Color = black
+	 Background: #F3EBE9
+
+H1 Font Size = 50px
+   Font Family = Arial, Helvetica, sans-serif
+   Text-transform: uppercase;
+   color: #FFFFFF;	(White)
+
+H2: Font Size = 18px
+	Text-Transform: uppercase;
+	Font-Family: cursive, Helvetica, sans-serif;
+
+Use "Digital Color Meter" on Mac to determin color
+of reference image.  Search on Mac using 
+Command-Space bar to bring up search tool.
+When in the Meter, go to:
+View >> Display Values >> Hexadecimal and then 
+hover cursor over area to identify color scheme.
+
+*/
+
+body {
+	background-image: url("../images/pattern1.png");
+}
+
+.container {
+	width: 980px;
+	margin: 0 auto 0 auto;
+}
+
+.header {
+	background-color: #EE7871;
+	height: 75px;
+	padding: 15px;
+}
+
+.whitebox {
+	background-color: #FFFFFF;
+	height: 325px;
+	padding: 15px 20px 15px 20px;
+	margin-top: -10px;
+}
+
+.footer {
+	background-color: #EE7871;
+	height: 35px;
+	padding: 15px;
+}
+
+.underline {
+	text-decoration: underline;
+	margin-bottom: 20px;
+}
+
+.whitefont {
+	color: #FFFFFF;
+	text-align: right;
+}
+
+.image {
+	border: 5px solid gray;
+}
+
+h1 {
+	font-size: 50px;
+	font-family: Arial, Helvetica, sans-serif;
+	text-transform: uppercase;
+	color: #FFFFFF;
+}
+
+h2 {
+	font-size: 18px;
+	text-transform: uppercase;
+	font-family: cursive, Helvetica, sans-serif;
+}
+
+p {font-size: 15px;
+   margin-bottom: 20px;}
